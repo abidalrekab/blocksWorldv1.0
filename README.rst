@@ -1,4 +1,4 @@
-Copyright (c) 2018 Dan Petre
+Copyright (c) 2018 Mohamed Abidalrekab, Dan Petre
 
 The MIT License (MIT)
 
@@ -10,7 +10,9 @@ BlocksWorld is a tool for generating simple test images.
 Core features
 =============
 
-* generate simple test images.
+* generate simple test images that contains many adjacent polygons  
+* overlapped objects
+* can be scaled, Rotated, and translated. 
 
 Supported platforms
 ===================
