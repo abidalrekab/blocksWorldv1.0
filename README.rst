@@ -1,4 +1,4 @@
-Copyright (c) 2018 Mohamed Abidalrekab, Dan Petre
+Copyright (c) 2020 Mohamed Abidalrekab, Dan Petre
 
 The MIT License (MIT)
 
