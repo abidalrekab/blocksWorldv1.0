@@ -14,17 +14,17 @@ Core features
 * overlapped objects
 * can be scaled, Rotated, and translated.
 
-* How Can images generated?
+How Can images generated?
 Answer : run RunMe.py with aproperiate settings:
     - the number of images you want [0-100000]
     - whether you want to not allow overlap between objects ( OverlapRemove = False/True ) 
     - is there gap between objects or not.
     - the number of objects in each image [3-10]
     - choose a set of colors that gonna be used
-* How can I find where vertices position for every object is saved?
+How can I find where vertices position for every object is saved?
 Answer : every generated image with have another file.json or file.txt when you active Save(data, jsonfile). check that file, you will final all info.
 
-* Does this code generate interpretable images - something like car, a house, boat, etc... - ?
+Does this code generate interpretable images - something like car, a house, boat, etc... - ?
 Answer : No. if you want that capability please check BlocksWorldv2.0
 
 Supported platforms
