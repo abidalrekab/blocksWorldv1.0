@@ -11,9 +11,9 @@ from SaveData import Save
 if __name__ == "__main__":
     # The main program parameters
     NumberOfImages = 1                              # the number of images you want [0-100000]
-    NrObjects = random.randint(3,20)                        # the number of objects in each image [1-10]
-    var = 'False'                                    # is there gap between objects or not.
-    OverlapRemove = 'True'
+    NrObjects = random.randint(3,10)                # the number of objects in each image [3-10]
+    var = 'False'                                   # is there gap between objects or not.
+    OverlapRemove = 'True'                          # remove any new object that overlapped with existing object.
     colors = ['red', 'blue', 'black', 'yellow']     # choose a set of colors that gonna be used
     # create output directory
     if not os.path.exists(AggregateOutputPath):
@@ -40,7 +40,7 @@ if __name__ == "__main__":
             # for i in range(len(c) - 1):
             #     draw(canvas, (c[i + 0], c[i + 1]), str(i))
         image.save(resultFile)
-        Save(data, jsonfile)
+        #Save(data, jsonfile)
 
 
 
