@@ -29,7 +29,6 @@ if __name__ == "__main__":
         resultFile = os.path.join(AggregateOutputPath, imageName)
         image, canvas = getImage('RGB', (640, 480), 'white')
         AggpointsShape, centersShape, RadiusShape, rotationShape, NrVerticesShape  = GenerateAdjecentShapesPoints(NrObjects, var, OverlapRemove)
-
         for idy, points in enumerate(AggpointsShape):
             color = random.choice(colors)
             drawSolid(canvas, points, color)
@@ -40,7 +39,8 @@ if __name__ == "__main__":
             # for i in range(len(c) - 1):
             #     draw(canvas, (c[i + 0], c[i + 1]), str(i))
         image.save(resultFile)
-        #Save(data, jsonfile)
+        #Save(data, jsonfile)   # active this line if u want to store vertices locations in each object within each image.
+        # the result is file contains all vertices, centers, radius, and some other information about object being drawn.
 
 
 
