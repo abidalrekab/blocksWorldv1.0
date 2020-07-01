@@ -15,7 +15,8 @@ Core features
 * can be scaled, Rotated, and translated.
 Questions
 =========
-* How Can images be generated?<br />
+
+How Can images be generated?<br />
 
 Answer : run RunMe.py with aproperiate settings:\
     - the number of images you want [0-100000]\
