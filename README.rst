@@ -13,8 +13,10 @@ Core features
 * generate simple test images that contains many adjacent polygons  
 * overlapped objects
 * can be scaled, Rotated, and translated.
-
+Questions
+=========
 * How Can images be generated?
+
 * Answer : run RunMe.py with aproperiate settings:
     - the number of images you want [0-100000]
     - whether you want to not allow overlap between objects ( OverlapRemove = False/True ) 
