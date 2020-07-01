@@ -25,7 +25,6 @@ Answer : run RunMe.py with aproperiate settings:
     - choose a set of colors that gonna be used
 * How can I find where vertices position for every object is saved?
 Answer : when you active Save(data, jsonfile), every generated image going to have another file.json or file.txt assossaited with it. check that file, you will find all info.
-![Jsonfile](Jsonfile.jpg)
 * Does this code generate interpretable images - something like car, a house, boat, etc... - ?
 Answer : No. if you want that capability please check BlocksWorldv2.0
 
