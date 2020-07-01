@@ -33,6 +33,10 @@ Answer : when you active Save(data, jsonfile), every generated image going to ha
 
 Answer : No. if you want that capability please check BlocksWorldv2.0\
 
+* How should I run it? 
+
+Answer : I'm using PyCharm IDE with anaconda to run the files. remember to mark test folder as sources Root. this package is design to use only standrad python library, so u don't need to install any extrenal libraries such as numpy Pandas,...etc.  
+
 Supported platforms
 ===================
 
